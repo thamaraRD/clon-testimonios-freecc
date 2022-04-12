@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Testimonio.css";
+import "../styles/Testimonial.css";
 
-export const Testimonios = (props) => {
+export const Testimonial = (props) => {
   const { name, country, position, company, testimonial, photo } = props;
   return (
     <div className="testimonial-container">
