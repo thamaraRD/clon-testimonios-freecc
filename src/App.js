@@ -5,8 +5,8 @@ import { Testimonios } from "./components/Testimonios";
 function App() {
   return (
     <div className="App">
-      <div className="main-container">
         <TitleMain />
+      <div className="main-container">
         <Testimonios
           name="Shawn Wang"
           country="Singapur"
